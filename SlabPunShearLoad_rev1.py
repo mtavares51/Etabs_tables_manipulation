@@ -15,15 +15,15 @@ and reload python console
 
 # type exported story data etabs table below
 # Model  > Structure Layout > Story Data
-story_data_excel = '221202-B120-Block2-rev12 - story data.xlsx'
+story_data_excel = 'Etabs - story data.xlsx'
 
 # type exported frame assignments etabs table below
 # etabs table to be exported: Model > Assignments > Frame Assignments > Frame Assignments - Summary
-frame_assignments_excel = '221202-B120-Block2-rev12 - frame assignments.xlsx'
+frame_assignments_excel = 'Etabs - frame assignments.xlsx'
 
 # type exported column forces etabs table below
 # Analysis > Results > Frame Results > Column Forces
-column_forces_excel = '221202-B120-Block2-rev12 - column forces.xlsx'
+column_forces_excel = 'Etabs - column forces.xlsx'
 
 load_case = 'ULS-grav'  # select load case for punching shear
 
@@ -100,16 +100,4 @@ if len(stories) == 1:
 
 
 
-#####
-#####
 
-column_labels = ['C14', 'C4', 'C64', 'C3', 'C84', 'C1', ]
-
-dfs_merged1 = dfs_merged.loc[dfs_merged['Column'].isin(column_labels)]
-
-filter_col = [col for col in dfs_merged1 if col.startswith('A')]
-filter_col.append('Column')
-
-dfs_merged2 = dfs_merged1[filter_col]
-
-dfs_merged2.max()
