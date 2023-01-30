@@ -2,7 +2,7 @@
 ## Data manipulation tools using python/pandas applied to Etabs output excel tables
 
 ### Objective ###
-To leverage python data analysis tools to extract organised information from Excel tables that Etabs outputs
+To leverage python data analysis tools to extract organised information from exported Etabs tables (in Excel format).
 
 ### 1.0 Punching Shear Loads Scripts ###
 Outputs an Excel Table with Punching Shear loads by Column Label and by floor
