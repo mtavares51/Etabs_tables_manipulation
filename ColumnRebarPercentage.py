@@ -11,15 +11,15 @@ and reload python console
 
 # etabs table to be exported: Model > Assignments > Frame Assignments > Frame Assignments - Summary
 # input excel filename below
-frame_assignments_excel = '20220630-B120-9storey Model-rev20.2 - frame assignments.xlsx'
+frame_assignments_excel = 'Etabs - frame assignments.xlsx'
 
 # etabs table to be exported: Model>Definitions>Frame Sections>Frame Sections
 # input excel filename below
-frame_sections_excel = "20220630-B120-9storey Model-rev20.2 - frame sections.xlsx"
+frame_sections_excel = "Etabs - frame sections.xlsx"
 
 # etabs table to be exported: Design > Concrete Design > Column Rebar Data
 # input excel filename below
-frame_rebar_excel = "20220630-B120-9storey Model-rev20.2 - rebar data.xlsx"
+frame_rebar_excel = "Etabs - rebar data.xlsx"
 
 # concrete grade of RC Column we want to design
 concrete_grade = 'C30/37'
