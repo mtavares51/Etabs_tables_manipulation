@@ -8,7 +8,7 @@ To leverage python data analysis tools to extract organised information from exp
 ### 1.0 Punching Shear Loads Scripts ###
 Outputs an Excel Table with Punching Shear loads by Column Label and by floor
 
-**SlabPunShearLoad_rev1.py** (main script) - Gets input excel tables and runs GetAxialForceDiff.py script for each floor for punching shear load; runs also for just one floor models
+**SlabPunShearLoad_rev1.py** (main script) - Reads Excel tables exported from Etabs and runs GetAxialForceDiff.py script for each floor for punching shear load; runs also for just one floor models
 
 **GetAxialForceDiff_rev4.py** (function definition) - Gets column axial force difference between two story levels (punching shear for slab)
 
@@ -18,6 +18,8 @@ Outputs an Excel Table with Punching Shear loads by Column Label and by floor
 
 --------
 ### 3.0 Beam Design Scripts ###
-**BeamAnalysisAndDesign_rev2.py**
+Reads Excel tables exported from Etabs and Outputs an Excel Table with flexural rebar reinforcement capacity utilization information for one beam.
+
+**BeamAnalysisAndDesign_rev2.py** (main script) - Reads Excel tables exported from Etabs and Outputs an Excel Table with flexural rebar reinforcement capacity utilization information for one beam.
 
 
