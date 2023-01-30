@@ -15,3 +15,9 @@ Outputs an Excel Table with Punching Shear loads by Column Label and by floor
 --------
 ### 2.0 Column Design Scripts ###
 **ColumnRebarPercentage.py** - Gets rebar percentage for all rectangular RC column sizes in a model
+
+--------
+### 3.0 Beam Design Scripts ###
+**BeamAnalysisAndDesign_rev2.py**
+
+
