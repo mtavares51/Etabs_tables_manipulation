@@ -1,5 +1,5 @@
 # Etabs_tables_manipulation
-## Data manipulation tools using python/pandas applied to Etabs output excel tables
+## Data manipulation tools using python/pandas applied to Etabs exported excel tables
 
 ### Objective ###
 To leverage python data analysis tools to extract organised information from exported Etabs tables (in Excel format).
