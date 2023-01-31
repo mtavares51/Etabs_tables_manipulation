@@ -20,6 +20,11 @@ Outputs an Excel Table with Punching Shear loads by Column Label and by floor
 ### 3.0 Beam Design Scripts ###
 Reads Excel tables exported from Etabs and Outputs an Excel Table with flexural rebar reinforcement capacity utilization information for one beam.
 
-**BeamAnalysisAndDesign_rev2.py** (main script) - Reads Excel tables exported from Etabs and Outputs an Excel Table with flexural rebar reinforcement capacity utilization information for one beam.
+3. **BeamAnalysisAndDesign_rev2.py** (main script) - Reads Excel tables exported from Etabs and Outputs an Excel Table with flexural rebar reinforcement capacity utilization information for one beam.
+   - 3.1 **ImportExcelTables.py** - Imports Excel tables exported from Etabs
+   - 3.2 **BeamForces_rev7.py** - gets beam internal forces from Etabs table
+         - 3.2.1 **find_nearest.py** - gets Etabs beam station nearest to station user inputs 
+         - 3.2.2 **MaxBeamForces_rev1.py** - 
+    
 
-
+TO BE COMPLETED
